@@ -1,20 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<java version="1.8.0_192" class="java.beans.XMLDecoder">
- <object class="beans.aircraftCrew.steward.Steward">
-  <void property="gender">
-   <string>male</string>
-  </void>
-  <void property="height">
-   <int>180</int>
-  </void>
-  <void property="name">
-   <string>Gale</string>
-  </void>
-  <void property="surname">
-   <string>mee</string>
-  </void>
-  <void property="workExperience">
-   <int>200</int>
-  </void>
- </object>
-</java>
+<LowCostAirlines Id="1">
+
+    <_lowCostAirlineAmerican Id="9">
+        <name>American Portal</name>
+        <operatingTime>250</operatingTime>
+        <category>Middle</category>
+        <costTicket>200</costTicket>
+
+        <pilot Id="6">
+            <name>Jack</name>
+            <surname>Lop</surname>
+            <workExperience>210</workExperience>
+            <flightHours>230</flightHours>
+            <id>6</id>
+        </pilot>
+
+        <steward Id="7">
+            <name>Mike</name>
+            <surname>Bee</surname>
+            <workExperience>250</workExperience>
+            <gender>male</gender>
+            <height>180</height>
+            <chiefPurser>false</chiefPurser>
+            <id>7</id>
+        </steward>
+
+        <aircraft Id="8">
+            <model>Airbus</model>
+            <seatAmount>200</seatAmount>
+            <type>low</type>
+            <fuelSupply>5050.0</fuelSupply>
+            <isluggageCompartment>false</isluggageCompartment>
+            <emergencyExitAmount>3</emergencyExitAmount>
+            <id>8</id>
+        </aircraft>
+
+        <id>9</id>
+    </_lowCostAirlineAmerican>
+
+    <_lowCostAirlineBlueSky Id="5">
+        <name>Blue sky</name>
+        <operatingTime>200</operatingTime>
+        <category>Ultra</category>
+        <costTicket>100</costTicket>
+
+        <pilot Id="2">
+            <name>Mark</name>
+            <surname>Lutz</surname>
+            <workExperience>200</workExperience>
+            <flightHours>200</flightHours>
+            <id>2</id>
+        </pilot><steward Id="3"><name>Andrew</name><surname>Gale</surname><workExperience>200</workExperience><gender>male</gender><height>180</height><chiefPurser>false</chiefPurser><id>3</id></steward><aircraft Id="4"><model>Airbus</model><seatAmount>200</seatAmount><type>low</type><fuelSupply>5000.0</fuelSupply><isluggageCompartment>false</isluggageCompartment><emergencyExitAmount>2</emergencyExitAmount><id>4</id></aircraft><id>5</id></_lowCostAirlineBlueSky><id>1</id></LowCostAirlines>
